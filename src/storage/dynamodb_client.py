@@ -28,4 +28,4 @@ class DynamoDBClient:
     def delete_all_feedback(self, tenant_id: str) -> int:
         count = len(self._storage.get(tenant_id, []))
         self._storage[tenant_id] = []
-        return count
+        return count# tenant isolation
