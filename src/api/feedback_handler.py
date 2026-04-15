@@ -119,3 +119,4 @@ class FeedbackHandler:
             "sentiment_summary": sentiment_summary,
             "recent_feedback": feedbacks[:5]
         }
+    print("Logging enabled")
